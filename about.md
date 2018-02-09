@@ -12,6 +12,8 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contact me
 
-[christo@christogoosen.co.za](mailto:christo@christogoosen.co.za)
-[christo.goosen@owasp.org](mailto:christo.goosen@owasp.org)
-[christo.goosen@takectrl.co.za](mailto:christo.goosen@takectrl.co.za)
+Personal: [christo@christogoosen.co.za](mailto:christo@christogoosen.co.za)
+
+OWASP: [christo.goosen@owasp.org](mailto:christo.goosen@owasp.org)
+
+Work: [christo.goosen@takectrl.co.za](mailto:christo.goosen@takectrl.co.za)
