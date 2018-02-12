@@ -7,4 +7,4 @@ This should be familiar to some, but the delay in getting this running is combin
 
 This blog is primarily for writing down technical snippets on work that ive done. This will allow me to share the experience and have a place to refresh my memory. If this helps anyone great, if you wish to share or use the info, go ahead! Knowledge hoarded is knowledge lost with the sands of time. 
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+<!-- ![_config.yml]({{ site.baseurl }}/images/config.png) -->
