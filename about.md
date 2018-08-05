@@ -16,21 +16,21 @@ Greed is exponential to the self, generosity is exponential towards the many.
 
 ### Projects and organizations that I love and recommend to others
 
-* [Offerzen Make Days] (https://make.offerzen.com/)
-* [Maker space in Cape Town] (makerstation.co.za)
-* [Cape Town Infosec conference run by community] (http://www.bsidescapetown.co.za/)
-* [NGO building tech to give open access to government data] (https://openup.org.za/)
-* [Right 2 Know Campaign] (https://www.r2k.org.za/)
-* [Electronic Frontier Foundation] (https://www.eff.org/)
-* [Open Web Application Security Project] (https://www.owasp.org/index.php/Main_Page)
+* [Offerzen Make Days](https://make.offerzen.com/)
+* [Maker space in Cape Town](makerstation.co.za)
+* [Cape Town Infosec conference run by community](http://www.bsidescapetown.co.za/)
+* [NGO building tech to give open access to government data](https://openup.org.za/)
+* [Right 2 Know Campaign](https://www.r2k.org.za/)
+* [Electronic Frontier Foundation](https://www.eff.org/)
+* [Open Web Application Security Project](https://www.owasp.org/index.php/Main_Page)
 
 
 ### My heroes
 
-* [Bryan Cantrill] (https://www.youtube.com/watch?v=hgN8pCMLI2U)
-* [Cody Wilson] (https://www.youtube.com/watch?v=HK6-kbdHE2A)
-* [Theo du raadt] (https://www.youtube.com/watch?v=UaQpvXSa4X8)
-* [Ryan Dahl] (https://www.youtube.com/watch?v=M3BM9TB-8yA)
+* [Bryan Cantrill](https://www.youtube.com/watch?v=hgN8pCMLI2U)
+* [Cody Wilson](https://www.youtube.com/watch?v=HK6-kbdHE2A)
+* [Theo du raadt](https://www.youtube.com/watch?v=UaQpvXSa4X8)
+* [Ryan Dahl](https://www.youtube.com/watch?v=M3BM9TB-8yA)
 * Ever growing list of thought leaders
 
 
