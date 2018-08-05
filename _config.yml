@@ -10,7 +10,7 @@ name: "Christo Goosen"
 description: CTO, DevOps Engineer, JS/Py Developer, Msc Infosec Student in Cape Town
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/c-goosen/c-goosen.github.io/master/images/profile_pic.jpg
+avatar: https://raw.githubusercontent.com/c-goosen/c-goosen.github.io/master/images/CTRL_ME.jpg
 
 #
 # Flags below are optional
@@ -27,7 +27,7 @@ footer-links:
   linkedin: christo-goosen-ctrl
   # pinterest:
   # rss: # just type anything here for a working RSS icon
-  twitter: owasp_cpt
+  twitter: crypticG00se
   stackoverflow: users/9340433/christo-goosen
   # youtube: # channel/<your_long_string> or user/<user-name>
   # googleplus: # anything in your profile username that comes after plus.google.com/

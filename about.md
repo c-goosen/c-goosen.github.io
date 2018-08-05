@@ -4,11 +4,44 @@ title: About
 permalink: /about/
 ---
 
-Linux DevOps engineer with a focus on AWS. Studying Msc Infosec in 2018 to improve my infosec theory for better application in development and DevOps. I love all things Python with a interest in Golang and Rust. React is pretty neat so far and getting into Ionic for work, somehow the javascript community convinced me to give it another try. 
+CTO at a Insurance Tech startup. I get to build incredibily interesting tools for a established and rigid indistry. Linux DevOps engineer with a focus on AWS. Studying Msc in Infosec in to further my interest and passion for the subject. I love all things Python with a interest in Golang and Rust. React is pretty neat so far and getting into Ionic for work, somehow the javascript community convinced me to give it another try. 
 
-### More Information
+When I have the time I love to teach others tech and the possiblities of tech. Hackathons, conferences and meetups inspires me to improve exponentially and cross polinate skills with others.
 
-A place to include any other types of information that you'd like to include about yourself.
+Technology is a equalising force, and with the inpiration of so many open source communities, I aim to inspire more people than the projects I code. I feel all the tech knowledge and power is lost without attempting to change the world for the better.
+
+### Inspiration
+
+Greed is exponential to the self, generosity is exponential towards the many.
+
+### Projects and organizations that I love and recommend to others
+
+* [Offerzen Make Days] (https://make.offerzen.com/)
+* [Maker space in Cape Town] (makerstation.co.za)
+* [Cape Town Infosec conference run by community] (http://www.bsidescapetown.co.za/)
+* [NGO building tech to give open access to government data] (https://openup.org.za/)
+* [Right 2 Know Campaign] (https://www.r2k.org.za/)
+* [Electronic Frontier Foundation] (https://www.eff.org/)
+* [Open Web Application Security Project] (https://www.owasp.org/index.php/Main_Page)
+
+
+### My heroes
+
+* [Bryan Cantrill] (https://www.youtube.com/watch?v=hgN8pCMLI2U)
+* [Cody Wilson] (https://www.youtube.com/watch?v=HK6-kbdHE2A)
+* [Theo du raadt] (https://www.youtube.com/watch?v=UaQpvXSa4X8)
+* [Ryan Dahl] (https://www.youtube.com/watch?v=M3BM9TB-8yA)
+* Ever growing list of thought leaders
+
+
+### Other Interests
+
+Photograpgy, Politics, Debates, Travel, etc.
+
+### Projects
+* https://github.com/c-goosen
+* https://www.meetup.com/OWASP-Cape-Town-Chapter-Meetup/
+  
 
 ### Contact me
 
