@@ -40,3 +40,4 @@ kramdown:
 
 plugins: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+remote_theme: joshgerdes/jekyll-uno
