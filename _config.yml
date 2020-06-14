@@ -1,6 +1,6 @@
 # Site settings
 title: Christo Goosen
-description: 'CTO/Dev/DevOPS/Infosec/OWASP/BSides - Personal website, resume and blog'
+description: 'CTO/Dev/DevOPS/Infosec/OWASP/BSides/Photogrtapher - Personal website, resume and blog. \n Bsuiness website: https://www.anomaloustech.co.za'
 url: 'http://www.christogoosen.co.za'
 baseurl: ''
 google_analytics: 'UA-113874906-1'
@@ -12,6 +12,7 @@ author:
   twitter_username: crypticG00se
   github_username:  c-goosen
   linkedin_username:  christo-goosen
+  instagram_username: goosenaroundphoto
 
 defaults:
   -
