@@ -4,14 +4,7 @@ sitemap:
 exclude: 'yes'
 ---
 
-/* TEAM */
-Developer & Designer: Josh Gerdes
-Twitter: @joshgerdes
-Site: http://joshgerdes.com
-Location: Minneapolis, MN, USA
-						
-/* THANKS */
-Name: Dale Anthony
+Contact: Christo Goosen christo@anomaloustech.co.za
 
 /* SITE */
 Last update: {{ site.time | date: "%Y/%m/%d" }}
