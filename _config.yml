@@ -1,7 +1,7 @@
 # Site settings
 title: Christo Goosen
-description: 'Developer, Hacker & Entrepreneur. CTO/Dev/DevOPS/Infosec/OWASP/BSides/Photogrtapher - Personal website, resume and blog. Bsuiness website: https://www.anomaloustech.co.za'
-url: 'http://www.christogoosen.co.za'
+description: 'DevSecOps Lead at Utility Warehouse. Hacker, builder & entrepreneur. BSides Cape Town organiser | MSc Computer Science | Pentesting, Kubernetes security & vulnerability management.'
+url: 'https://www.christogoosen.co.za'
 baseurl: ''
 google_analytics: 'UA-113874906-1'
 google_tag_manager: 'G-3C6ZDSX2F2'
@@ -35,9 +35,7 @@ sass:
     style: compressed
 
 kramdown:
-  # use Github Flavored Markdown
   input: GFM
-  # do not replace newlines by <br>s
   hard_wrap: false
 
 plugins: ['jekyll-paginate']

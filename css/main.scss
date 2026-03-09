@@ -4,28 +4,187 @@
 @import "tables";
 @import "monokai";
 
-/* Modifications */
+/* Typography & readability */
+
+.post {
+  font-size: 1.05em;
+  line-height: 1.8;
+  color: #333;
+  max-width: 720px;
+}
+
+.post h2,
+.post h3,
+.post h4 {
+  margin-top: 1.8em;
+  margin-bottom: 0.6em;
+  color: #222;
+}
+
+.post p {
+  margin-bottom: 1.4em;
+}
+
+.post a {
+  color: #e25440;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(226, 84, 64, 0.3);
+  transition: border-color 0.2s ease;
+}
+
+.post a:hover {
+  border-bottom-color: #e25440;
+}
+
+.post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin: 1.5em 0;
+}
+
+.post blockquote {
+  border-left: 4px solid #e25440;
+  margin: 1.5em 0;
+  padding: 0.8em 1.2em;
+  background: #faf8f7;
+  color: #555;
+  font-style: italic;
+  border-radius: 0 4px 4px 0;
+}
+
+/* Code blocks */
 
 pre.highlight,
 .highlight pre {
-  padding: 10px;
+  padding: 1.2em;
+  border-radius: 8px;
+  background: #272822 !important;
+  overflow-x: auto;
+  margin: 1.5em 0;
+  font-size: 0.9em;
+  line-height: 1.6;
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 pre.highlight code,
 .highlight pre code {
-  white-space: pre-wrap;
+  white-space: pre;
+  word-wrap: normal;
 }
 
-.btn,
-.navigation__item a {
-  margin: 5px 0;
-  white-space: nowrap;
+code {
+  background: rgba(226, 84, 64, 0.08);
+  color: #c0392b;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
 }
 
-.pagination__page-number {
+pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* Post list — cards with hover effect */
+
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list__item {
+  padding: 1.5em 0;
+  transition: transform 0.2s ease;
+}
+
+.post-list__post-title a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.post-list__post-title a:hover {
+  color: #e25440;
+}
+
+.excerpt {
+  color: #666;
+  font-size: 0.95em;
+  line-height: 1.7;
+  margin: 0.5em 0 0.8em;
+}
+
+.post-list__read-more {
   display: inline-block;
-  padding: 10px;
+  color: #e25440;
+  font-size: 0.9em;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease;
 }
+
+.post-list__read-more:hover {
+  transform: translateX(4px);
+}
+
+.post-list__divider {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 0;
+}
+
+/* Post meta */
+
+.post-meta__reading-time {
+  font-size: 0.85em;
+  color: #999;
+}
+
+.post-meta__tags a {
+  color: #e25440;
+  text-decoration: none;
+  font-size: 0.85em;
+}
+
+.post-meta__tags a:hover {
+  text-decoration: underline;
+}
+
+/* Post footer tags */
+
+.post-footer {
+  margin-top: 3em;
+  padding-top: 1.5em;
+  border-top: 1px solid #eee;
+}
+
+.post-footer__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.post-tag {
+  display: inline-block;
+  background: rgba(226, 84, 64, 0.08);
+  color: #e25440;
+  padding: 0.3em 0.8em;
+  border-radius: 20px;
+  font-size: 0.8em;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+  border: 1px solid rgba(226, 84, 64, 0.2);
+}
+
+.post-tag:hover {
+  background: #e25440;
+  color: #fff;
+}
+
+/* Tags and categories page */
 
 .categories a,
 .tags a {
@@ -33,27 +192,101 @@ pre.highlight code,
   border-radius: 20px;
   color: #e25440;
   display: inline-block;
-  font-size: 12px;
-  margin: 5px 0;
-  padding: 5px 10px;
+  font-size: 0.8em;
+  margin: 4px 2px;
+  padding: 0.35em 0.9em;
   text-shadow: none;
   white-space: nowrap;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
-.post-meta__tags {
-  font-size: 12px;
-  padding: 0 5px;
+.categories a:hover,
+.tags a:hover {
+  background: #e25440;
+  color: #fff;
 }
 
-.footer__copyright {
-    margin: 0 20px 10px;
+/* Navigation & buttons */
+
+.btn,
+.navigation__item a {
+  margin: 5px 0;
+  white-space: nowrap;
+  transition: opacity 0.2s ease;
 }
+
+.pagination__page-number {
+  display: inline-block;
+  padding: 10px;
+  color: #999;
+  font-size: 0.9em;
+}
+
+/* Profile image */
 
 .user-image {
   margin-bottom: 1.2em;
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   border: 3px solid #fff;
-  border-radius:100%;
+  border-radius: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.user-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+
+.footer__copyright {
+  margin: 0 20px 10px;
+  font-size: 0.85em;
+  color: #999;
+}
+
+/* Panel description — better readability in sidebar */
+
+.panel-cover__description {
+  font-size: 0.9em;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* Smooth scroll */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection highlight */
+
+::selection {
+  background: rgba(226, 84, 64, 0.2);
+  color: #333;
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 768px) {
+  .post {
+    font-size: 1em;
+    line-height: 1.7;
+  }
+
+  pre.highlight,
+  .highlight pre {
+    padding: 0.8em;
+    font-size: 0.85em;
+    border-radius: 4px;
+  }
+
+  .user-image {
+    width: 80px;
+    height: 80px;
+  }
 }

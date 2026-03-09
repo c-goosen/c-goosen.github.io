@@ -1,9 +1,9 @@
-version: '3'
-
 services:
   jekyll:
     image: jekyll/jekyll:latest
-    command: jekyll serve --watch --force_polling --verbose
+    platform: linux/amd64
+    command: >
+      sh -c "gem install webrick && jekyll serve --watch --force_polling --verbose"
     ports:
       - 4000:4000
     volumes:

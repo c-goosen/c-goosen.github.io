@@ -1,20 +1,33 @@
 ---
 layout: default
 ---
-<article class="post-container post-container--single">
+<article class="post-container post-container--single" itemscope itemtype="https://schema.org/BlogPosting">
   <header class="post-header">
     <div class="post-meta">
-      <time datetime="{{ page.date | date: "%Y-%m-%d %H:%M" }}" class="post-meta__date date">{{ page.date | date: "%-d %b %Y" }}</time>
+      <time datetime="{{ page.date | date: "%Y-%m-%d %H:%M" }}" class="post-meta__date date" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time>
+      {% assign words = content | number_of_words %}
+      {% assign minutes = words | divided_by: 200 %}
+      {% if minutes < 1 %}{% assign minutes = 1 %}{% endif %}
+      &#8226; <span class="post-meta__reading-time">{{ minutes }} min read</span>
       {% if page.tags.size > 0 %}
-      &#8226; <span class="post-meta__tags">on {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}</span>
+      &#8226; <span class="post-meta__tags">{% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}</span>
       {% endif %}
     </div>
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
   </header>
 
-  <section class="post">
+  <section class="post" itemprop="articleBody">
     {{ content }}
   </section>
-  {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+
+  <footer class="post-footer">
+    {% if page.tags.size > 0 %}
+    <div class="post-footer__tags">
+      {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag }}" class="post-tag">{{ tag }}</a>{% endfor %}
+    </div>
+    {% endif %}
+  </footer>
+
+  {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section>{% endif %}
 </article>
 {% if page.comments != false %}{% include disqus.html %}{% endif %}

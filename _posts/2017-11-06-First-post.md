@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Finally my blog is up and running!
+description: Why I chose Jekyll and GitHub Pages over a custom Flask/React blog — and the journey of over-engineering a simple solution.
+tags: [jekyll, github-pages, blogging]
 ---
 
 This should be familiar to some, but the delay in getting this running is combination of procrastinating and over engineering the solution. Github pages with Jeckyll makes building a blog much easier than some tutorials would make you believe. Definitely over engineering running mongo/mysql, flask and a seperate frontend for a simple blog. Even though I like the challenge to build a blog in react, this solution makes sense as updates will be infrequent and builds are handled for me.
